@@ -107,4 +107,4 @@ class Radiacion(Resource):
 
 api.add_resource(Radiacion,'/radiacion')
 if __name__=='__main__':
-    app.run(debug=True, port=5560)
+    app.run()
